@@ -25,6 +25,7 @@ const MobileMenu = ({
   setError,
   setErrMsg,
   loadAccountData,
+  walletConnect
 }) => {
   const {
     account,
@@ -132,7 +133,7 @@ const MobileMenu = ({
             ) : (
               <button
                 className="px-6 py-3 truncate text-white uppercase font-medium bg-gradient-to-l from-[#c561ff] to-[#53f] rounded-full flex items-center justify-center space-x-2"
-                onClick={() => handleWalletConnect()}
+                onClick={walletConnect}
               >
                 <svg
                   className="w-8 fill-white"

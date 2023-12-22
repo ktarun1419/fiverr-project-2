@@ -139,6 +139,7 @@ async function connectToWalletConnect(){
       {openModal &&   <Modal closeModal={()=>setOpenModal(false)} connectMetamask={connectMetaMask} connectWalletconnect={connectToWalletConnect} />}
     
       <MobileMenu
+      walletConnect={connectToWalletConnect}
         isOpen={isOpen}
         setIsOpen={setIsOpen}
         account={account}
