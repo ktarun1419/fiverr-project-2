@@ -1,0 +1,7 @@
+.animated-text {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to left, #488dce 0, #d000ff 100%);
+  position: relative;
+  z-index: 1;
+}
